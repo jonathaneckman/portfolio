@@ -266,7 +266,6 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
         </header>
         <main id="site-main" className={`site-main ${SiteMain} ${outer}`}>
           <div className={`${inner}`}>
-            {/* TODO: no-image css tag? */}
             <article className={`${PostFull} ${!post.frontmatter.image ? NoImage : ''}`}>
               <PostFullHeader>
                 <PostFullMeta>
@@ -286,14 +285,14 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
                 <PostFullTitle>{post.frontmatter.title}</PostFullTitle>
               </PostFullHeader>
 
-              {post.frontmatter.image && (
+              {/*post.frontmatter.image && (
                 <PostFullImage>
                   <Img
                     style={{ height: '100%' }}
                     fluid={post.frontmatter.image.childImageSharp.fluid}
                   />
                 </PostFullImage>
-              )}
+              )*/}
               <PostContent htmlAst={post.htmlAst} />
 
               {/* The big email subscribe modal content */}
@@ -330,7 +329,7 @@ export default PageTemplate;
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+    logo: file(relativePath: { eq: "img/logo.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed

@@ -5,6 +5,7 @@ image: img/testimg-cover.jpg
 author: Jonathan Eckman
 date: 2018-01-14T07:03:47.149Z
 tags: [".NET Core", "Aurelia"]
+draft: false
 ---
 
 ## Problem: Failed to Fetch

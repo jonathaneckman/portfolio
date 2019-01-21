@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 
 import { colors } from '../styles/colors';
 // @ts-ignore
-import favicon from '../../src/favicon.ico';
+import favicon from '../../src/favicon.png';
 // tslint:disable-next-line:no-unused-expression
 injectGlobal`
 html,

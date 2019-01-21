@@ -48,8 +48,8 @@ const AuthorBio = styled.h2`
   z-index: 10;
   flex-shrink: 0;
   margin: 5px 0 10px 0;
-  max-width: 600px;
-  font-size: 2rem;
+  max-width: 650px;
+  font-size: 1.75rem;
   line-height: 1.3em;
   font-weight: 300;
   letter-spacing: 0.5px;
