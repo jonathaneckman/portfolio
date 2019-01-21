@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Contributing to Aurelia
-image: img/testimg-cover.jpg
 author: Jonathan Eckman
 date: 2018-01-07T07:03:47.149Z
 tags: ["Aurelia"]

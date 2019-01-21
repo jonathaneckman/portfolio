@@ -191,13 +191,6 @@ export const pageQuery = graphql`
             date
             tags
             draft
-            image {
-              childImageSharp {
-                fluid(maxWidth: 3720) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             author {
               id
               bio

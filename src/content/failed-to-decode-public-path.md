@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Failed to decode %PUBLIC_PATH%
-image: img/testimg-cover.jpg
 author: Jonathan Eckman
 date: 2018-02-06T07:03:47.149Z
 tags: ["React"]

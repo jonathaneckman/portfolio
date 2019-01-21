@@ -184,7 +184,7 @@ class SubscribeModal extends React.Component<any, SubscribeState> {
         <SubscribeOverlayClose onClick={this.close} />
         <SubscribeOverlayContent>
           <SubscribeLogo />
-          <SubscribeOverlayTitle>Subscribe to {config.title}</SubscribeOverlayTitle>
+          <SubscribeOverlayTitle>Never stop learning</SubscribeOverlayTitle>
           <SubscribeOverlayDescription>
             Stay up to date! Get all the latest &amp; greatest posts delivered straight to your
             inbox

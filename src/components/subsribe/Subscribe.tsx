@@ -62,7 +62,7 @@ export interface SubscribeProps {
 const Subscribe: React.FunctionComponent<SubscribeProps> = props => {
   return (
     <SubscribeFormSection>
-      <h3 className={`${SubscribeFormTitle}`}>Subscribe to {props.title}</h3>
+      <h3 className={`${SubscribeFormTitle}`}>Never stop learning</h3>
       <p>Get the latest posts delivered right to your inbox</p>
       <SubscribeForm />
     </SubscribeFormSection>

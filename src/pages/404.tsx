@@ -108,13 +108,6 @@ export const pageQuery = graphql`
             title
             date
             tags
-            image {
-              childImageSharp {
-                fluid(maxWidth: 3720) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             author {
               id
               bio
