@@ -84,7 +84,16 @@ const Footer: React.FunctionComponent = () => {
               Twitter
             </a>
           )}
-
+          {config.github && (
+            <a href={config.github} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          )}
+          {config.linkedin && (
+            <a href={config.linkedin} target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          )}
           <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>

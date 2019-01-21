@@ -67,7 +67,7 @@ export const SocialLink = css`
   }
 
   svg {
-    height: 1.8rem;
+    height: 2rem;
     fill: #fff;
   }
 `;

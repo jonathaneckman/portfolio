@@ -14,6 +14,8 @@ export interface WebsiteConfig {
   siteUrl: string;
   facebook?: string;
   twitter?: string;
+  linkedin?: string;
+  github?: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -36,6 +38,8 @@ const config: WebsiteConfig = {
   lang: 'en',
   siteUrl: 'https://jonathaneckman.io',
   twitter: 'https://twitter.com/jonathaneckman4',
+  linkedin: 'https://www.linkedin.com/in/jonathaneckman',
+  github: 'https://github.com/jonathaneckman',
   showSubscribe: true,
   mailchimpAction: 'https://jonathaneckman.us20.list-manage.com/subscribe/post?u=681503bc3548228e2d86ad0f9&amp;id=83bced18a5',
   mailchimpName: 'b_681503bc3548228e2d86ad0f9_83bced18a5',
