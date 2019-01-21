@@ -37,8 +37,8 @@ const config: WebsiteConfig = {
   siteUrl: 'https://jonathaneckman.io',
   twitter: 'https://twitter.com/jonathaneckman4',
   showSubscribe: true,
-  mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
+  mailchimpAction: 'https://jonathaneckman.us20.list-manage.com/subscribe/post?u=681503bc3548228e2d86ad0f9&amp;id=83bced18a5',
+  mailchimpName: 'b_681503bc3548228e2d86ad0f9_83bced18a5',
 };
 
 export default config;
