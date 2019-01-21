@@ -8,6 +8,7 @@ tags: ["React"]
 
 ## Problem
 I've been dabbling in React and recently discovered the amazing [`create-react-app`](https://github.com/facebook/create-react-app) tool. Here's a unique problem I ran into when using it, and my solution.
+
 1. In [Visual Studio Team Services](https://www.visualstudio.com/team-services/) (VSTS), I created a new project called "My Project". The space is important. 
 2. VSTS will create a default git repository using the same name as the project.
 3. I pushed the React app to source control.
