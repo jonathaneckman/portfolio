@@ -1,9 +1,18 @@
 - id: React
-  description: React JS.
+  description: React JS
   image: img/speeches-cover.jpg
 - id: .NET Core
   description: .NET Core
   image: img/speeches-cover.jpg
 - id: Aurelia
-  description: Aurelia.
+  description: Aurelia
+  image: img/speeches-cover.jpg
+- id: DevOps
+  description: DevOps
+  image: img/speeches-cover.jpg
+- id: O365
+  description: Office 365
+  image: img/speeches-cover.jpg
+- id: SPFx
+  description: SharePoint Framework
   image: img/speeches-cover.jpg
